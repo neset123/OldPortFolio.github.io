@@ -1,0 +1,98 @@
+@media screen and (max-width: 600px) {
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: 0;
+  position: relative;
+
+  }
+  
+  header .box {
+    display: flex;
+  flex-direction: column;
+  padding: 2px;
+  margin: 5px;
+
+
+  }
+  header .box nav  {
+    display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+
+  }
+  header .box nav a {
+    width: 100%;
+    margin: 2px;
+    
+  }
+  
+  
+  
+  /* Adjust home section for mobile view */
+  .home .container .image img {
+    height: 32rem;
+    margin-top: -4rem;
+    visibility: hidden;
+  }
+  
+  .home .container .content {
+    top: 10rem;
+    left: 2px;
+    width: 32rem;
+   
+  }
+  
+  .home .container .content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .home .container .content h2 {
+    display: none;
+    
+  }
+  
+  .home .container .content h3 {
+    font-size: 1.5rem;
+  }
+  
+  .home .container .content p {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .home .container .content .icons i {
+    font-size: 40px;
+    padding: 6px 7px;
+  }
+  .home .container .content .btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  
+  /* Adjust about section for mobile view */
+  .about {
+    padding: 2rem 5% 4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about .container {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+ .container {
+    display: flex;
+    flex-direction: column; 
+  }
+  .skill .container .box {
+    width: 100%;
+  }
+
+
+}
