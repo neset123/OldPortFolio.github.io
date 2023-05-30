@@ -342,14 +342,15 @@ header .box .total-like {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 2rem;
+    
 }
 
 .project .container .box{
     width: 20rem;
-    /* background-color: red; */
+    
     position: relative;
     overflow: hidden;
+    margin: 0 2rem;
 }
 
 .project .container .box img{
